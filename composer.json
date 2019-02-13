@@ -1,0 +1,24 @@
+{
+    "name": "fmc/son-mvc-php",
+    "description": "Projeto base MVC-PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Macedo",
+            "email": "fermaccha@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "SON": "vendor",
+            "App": "/"
+        }
+    },
+    "config": {
+
+        "bin-dir": "bin"
+    }
+}
